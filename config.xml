@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+		id          = "myfirstapp"
+        version     = "1.0.0" >
+
+    <name>GUI</name>
+    <description>GUI is a A program interface that takes advantage of the computer's 
+graphics capabilities to make the program easier to use. Well-designed 
+graphical user interfaces can free the user from learning complex command languages. 
+On the other hand, many users find that they work more effectively with a 
+command-driven interface, especially if they already know the command language.
+</description>
+    <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
+		John Brown
+	</author>
+	<platform name="android" />
+	
+	<plugin name="cordova-plugin-device" spec="~1.1.4" />
+	<plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
+
+</widget>
